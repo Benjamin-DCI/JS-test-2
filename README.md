@@ -10,13 +10,13 @@ Check if the values of an array are larger than 10. Return the values that are l
 
 #### 2. Class Blueprint
 
-Create a blueprint for a course at DCI e.g. FwB 13a - using the "class" syntax in javascript.
+Create a blueprint for a course at DCI e.g. FwB 13b - using the "class" syntax in javascript.
 * The class should contain whether the course is a year long course or an orientation course.
 * The class should contain who the teacher is. 
 * The class should contain whether the group is learning marketing or web development. 
 * The class should contain the number of students taking the course.
 * The class should have a method that checks how big a classroom should be depending on the number of students taking the course. 1 student =  22m². 
-* Add a method using "prototype" to print all the details of the course e.g. "This is a year long web development course taught by John Smith. There are 10 students taking the course."
+* Add a method to print all the details of the course e.g. "This is a year long web development course taught by John Smith. There are 10 students taking the course."
 
 #### 3. Events  
 Each event below has a different turnout. Sort the array of objects based on which day of the week had the highest turnout. Highest turnout -> lowest turnout.
