@@ -66,13 +66,8 @@ const hourTracking = [
       { day: 'Friday', start: 6, end: 12},
     ];
 
-const totalHours = arr => {
-    let result = []
-    for(let i in arr){
-        result.push(arr[i].end - arr[i].start);
-    }
-    return result.reduce((acc,val) => acc + val);
-}
+const totalHours = arr => arr.reduce((acc,val) => acc + (val.end - val.start),0);
+
 console.log(totalHours(hourTracking));
 
 
